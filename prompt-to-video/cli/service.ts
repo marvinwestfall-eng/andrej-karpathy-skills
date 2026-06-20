@@ -5,9 +5,14 @@ import { CharacterAlignmentResponseModel } from "@elevenlabs/elevenlabs-js/api";
 import { IMAGE_HEIGHT, IMAGE_WIDTH } from "../src/lib/constants";
 
 let apiKey: string | null = null;
+let leonardoApiKey: string | null = null;
 
 export const setApiKey = (key: string) => {
   apiKey = key;
+};
+
+export const setLeonardoApiKey = (key: string) => {
+  leonardoApiKey = key;
 };
 
 export const openaiStructuredCompletion = async <T>(
@@ -59,6 +64,8 @@ function saveUint8ArrayToPng(uint8Array: Uint8Array, filePath: string) {
   fs.writeFileSync(filePath, buffer as Uint8Array);
 }
 
+const LEONARDO_MODEL_ID = "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3"; // Leonardo Phoenix
+
 export const generateAiImage = async ({
   prompt,
   path,
@@ -68,47 +75,55 @@ export const generateAiImage = async ({
   path: string;
   onRetry: (attempt: number) => void;
 }) => {
-  const maxRetries = 3;
-  let attempt = 0;
-  let lastError: Error | null = null;
-
-  while (attempt < maxRetries) {
-    const res = await fetch("https://api.openai.com/v1/images/generations", {
+  const genRes = await fetch(
+    "https://cloud.leonardo.ai/api/rest/v1/generations",
+    {
       method: "POST",
       headers: {
-        Authorization: `Bearer ${apiKey}`,
+        Authorization: `Bearer ${leonardoApiKey}`,
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: "dall-e-3",
         prompt,
-        size: `${IMAGE_WIDTH}x${IMAGE_HEIGHT}`,
-        response_format: "b64_json",
+        modelId: LEONARDO_MODEL_ID,
+        width: IMAGE_WIDTH,
+        height: IMAGE_HEIGHT,
+        num_images: 1,
       }),
-    });
+    },
+  );
 
-    if (res.ok) {
-      const data = await res.json();
-      const buffer = Buffer.from(data.data[0].b64_json, "base64");
-      const uint8Array = new Uint8Array(buffer);
+  if (!genRes.ok)
+    throw new Error(`Leonardo error: ${await genRes.text()}`);
 
-      saveUint8ArrayToPng(uint8Array, path);
+  const genData = await genRes.json();
+  const generationId = genData.sdGenerationJob.generationId;
+
+  // Poll until complete (max ~90s)
+  for (let i = 0; i < 30; i++) {
+    await new Promise((resolve) => setTimeout(resolve, 3000));
+    const statusRes = await fetch(
+      `https://cloud.leonardo.ai/api/rest/v1/generations/${generationId}`,
+      { headers: { Authorization: `Bearer ${leonardoApiKey}` } },
+    );
+    const statusData = await statusRes.json();
+    const gen = statusData.generations_by_pk;
+
+    if (gen.status === "COMPLETE") {
+      const imageUrl = gen.generated_images[0].url;
+      const imgRes = await fetch(imageUrl);
+      const buffer = Buffer.from(await imgRes.arrayBuffer());
+      fs.writeFileSync(path, buffer);
       return;
-    } else {
-      lastError = new Error(
-        `OpenAI error (attempt ${attempt + 1}): ${await res.text()}`,
-      );
-      attempt++;
-      if (attempt < maxRetries) {
-        // Wait 1 second before retrying
-        await new Promise((resolve) => setTimeout(resolve, 1000));
-      }
-      onRetry(attempt);
+    }
+
+    if (gen.status === "FAILED") {
+      onRetry(i + 1);
+      throw new Error("Leonardo generation failed");
     }
   }
 
-  // Ran out of retries, throw the last error
-  throw lastError!;
+  throw new Error("Leonardo generation timed out");
 };
 
 export const getGenerateStoryPrompt = (title: string, topic: string) => {

@@ -13,6 +13,7 @@ import {
   getGenerateStoryPrompt,
   openaiStructuredCompletion,
   setApiKey,
+  setLeonardoApiKey,
 } from "./service";
 import {
   ContentItemWithDetails,
@@ -30,6 +31,7 @@ dotenv.config({ quiet: true });
 
 interface GenerateOptions {
   apiKey?: string;
+  leonardoApiKey?: string;
   elevenlabsApiKey?: string;
   title?: string;
   topic?: string;
@@ -87,6 +89,8 @@ class ContentFS {
 async function generateStory(options: GenerateOptions) {
   try {
     let apiKey = options.apiKey || process.env.OPENAI_API_KEY;
+    let leonardoApiKey =
+      options.leonardoApiKey || process.env.LEONARDO_API_KEY;
     let elevenlabsApiKey =
       options.elevenlabsApiKey || process.env.ELEVENLABS_API_KEY;
 
@@ -104,6 +108,22 @@ async function generateStory(options: GenerateOptions) {
       }
 
       apiKey = response.apiKey;
+    }
+
+    if (!leonardoApiKey) {
+      const response = await prompts({
+        type: "password",
+        name: "leonardoApiKey",
+        message: "Enter your Leonardo API key:",
+        validate: (value) => value.length > 0 || "Leonardo API key is required",
+      });
+
+      if (!response.leonardoApiKey) {
+        console.log(chalk.red("Leonardo API key is required. Exiting..."));
+        process.exit(1);
+      }
+
+      leonardoApiKey = response.leonardoApiKey;
     }
 
     if (!elevenlabsApiKey) {
@@ -162,6 +182,7 @@ async function generateStory(options: GenerateOptions) {
 
     const storySpinner = ora("Generating story...").start();
     setApiKey(apiKey!);
+    setLeonardoApiKey(leonardoApiKey!);
     const storyRes = await openaiStructuredCompletion(
       getGenerateStoryPrompt(title!, topic!),
       StoryScript,
