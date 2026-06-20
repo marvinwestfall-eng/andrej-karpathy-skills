@@ -1,0 +1,1468 @@
+{
+  "elements": [
+    {
+      "startMs": 0,
+      "endMs": 6560,
+      "imageUrl": "eb9e3cf0-d3e6-42ed-b694-9698543d1bba",
+      "enterTransition": "blur",
+      "exitTransition": "blur",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1.5,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 6560
+        }
+      ]
+    },
+    {
+      "startMs": 6560,
+      "endMs": 12400,
+      "imageUrl": "9dbb86c5-4f44-4465-9a24-e13a001f0336",
+      "enterTransition": "blur",
+      "exitTransition": "blur",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.5,
+          "startMs": 0,
+          "endMs": 5840
+        }
+      ]
+    },
+    {
+      "startMs": 12400,
+      "endMs": 20160,
+      "imageUrl": "6d186361-65fb-4da3-88d6-e5ed9e578b9a",
+      "enterTransition": "blur",
+      "exitTransition": "blur",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1.5,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 7760
+        }
+      ]
+    },
+    {
+      "startMs": 20160,
+      "endMs": 26880,
+      "imageUrl": "08375b8c-6865-4e71-ae06-cd0d5959c2e0",
+      "enterTransition": "blur",
+      "exitTransition": "blur",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.5,
+          "startMs": 0,
+          "endMs": 6720
+        }
+      ]
+    },
+    {
+      "startMs": 26880,
+      "endMs": 32641,
+      "imageUrl": "fb84b8ea-b280-45de-9a42-091cd3685137",
+      "enterTransition": "blur",
+      "exitTransition": "blur",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1.5,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 5761
+        }
+      ]
+    },
+    {
+      "startMs": 32641,
+      "endMs": 38081,
+      "imageUrl": "8ea59c7a-590a-4497-9a89-fecc3bc0381a",
+      "enterTransition": "blur",
+      "exitTransition": "blur",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.5,
+          "startMs": 0,
+          "endMs": 5440
+        }
+      ]
+    },
+    {
+      "startMs": 38081,
+      "endMs": 45921,
+      "imageUrl": "aea7f676-9f19-4726-b821-40d7038310fd",
+      "enterTransition": "blur",
+      "exitTransition": "blur",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1.5,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 7840
+        }
+      ]
+    }
+  ],
+  "text": [
+    {
+      "startMs": 0,
+      "endMs": 687.741935483871,
+      "text": "Getting your",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6685926169468002,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 687.741935483871,
+      "endMs": 1428.3870967741934,
+      "text": "first pair of",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6604531622168456,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 1428.3870967741934,
+      "endMs": 2221.9354838709673,
+      "text": "contact lenses",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5905319389622444,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 2221.9354838709673,
+      "endMs": 3015.4838709677415,
+      "text": "is a big deal.",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 3015.4838709677415,
+      "endMs": 3544.516129032258,
+      "text": "But don't",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6411983262963945,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 3544.516129032258,
+      "endMs": 4232.258064516128,
+      "text": "worry — with",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5296679602530452,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 4232.258064516128,
+      "endMs": 4761.290322580645,
+      "text": "the right",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5519327733790389,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 4761.290322580645,
+      "endMs": 5501.935483870968,
+      "text": "steps, you'll",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 5501.935483870968,
+      "endMs": 6295.4838709677415,
+      "text": "be a pro in no",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6041244841946283,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 6295.4838709677415,
+      "endMs": 6560,
+      "text": "time.",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 6560,
+      "endMs": 7133.571428571428,
+      "text": "The golden",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5254788686729258,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 7133.571428571428,
+      "endMs": 7811.428571428572,
+      "text": "rule? Always",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 7811.428571428572,
+      "endMs": 8332.857142857143,
+      "text": "wash your",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 8332.857142857143,
+      "endMs": 8645.714285714286,
+      "text": "hands",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6758107859430456,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 8645.714285714286,
+      "endMs": 9219.285714285714,
+      "text": "thoroughly",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5908413311225701,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 9219.285714285714,
+      "endMs": 9949.285714285714,
+      "text": "with soap and",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5719938548726579,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 9949.285714285714,
+      "endMs": 10627.142857142857,
+      "text": "water before",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5590960014514677,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 10627.142857142857,
+      "endMs": 11357.142857142857,
+      "text": "touching your",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5312893511995529,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 11357.142857142857,
+      "endMs": 12139.285714285714,
+      "text": "lenses or your",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 12139.285714285714,
+      "endMs": 12400,
+      "text": "eyes.",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5642627856115011,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 12400,
+      "endMs": 13192.992700729927,
+      "text": "Open the lens",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 13192.992700729927,
+      "endMs": 14042.627737226278,
+      "text": "case and place",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 14042.627737226278,
+      "endMs": 14722.335766423357,
+      "text": "the lens on",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5335323136840378,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 14722.335766423357,
+      "endMs": 15005.547445255474,
+      "text": "your",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.539719498640017,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 15005.547445255474,
+      "endMs": 15628.61313868613,
+      "text": "fingertip.",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6503971899458219,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 15628.61313868613,
+      "endMs": 16364.963503649635,
+      "text": "Make sure it",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6864456124884863,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 16364.963503649635,
+      "endMs": 16818.10218978102,
+      "text": "forms a",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6258244000584583,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 16818.10218978102,
+      "endMs": 17554.452554744523,
+      "text": "perfect bowl",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 17554.452554744523,
+      "endMs": 18347.445255474453,
+      "text": "shape — if it",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5710870552009212,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 18347.445255474453,
+      "endMs": 19083.795620437955,
+      "text": "looks like a",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5374904582106018,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 19083.795620437955,
+      "endMs": 19876.78832116788,
+      "text": "taco, flip it",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5916827924014434,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 19876.78832116788,
+      "endMs": 20160,
+      "text": "over.",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 20160,
+      "endMs": 20870.243902439026,
+      "text": "Use one hand",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6699354922498855,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 20870.243902439026,
+      "endMs": 21689.756097560974,
+      "text": "to gently hold",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6001210743499454,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 21689.756097560974,
+      "endMs": 22290.731707317074,
+      "text": "your upper",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5134612014921989,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 22290.731707317074,
+      "endMs": 23055.60975609756,
+      "text": "eyelid up and",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5320804247602579,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 23055.60975609756,
+      "endMs": 23875.121951219513,
+      "text": "your lower lid",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 23875.121951219513,
+      "endMs": 24476.09756097561,
+      "text": "down. This",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 24476.09756097561,
+      "endMs": 25295.60975609756,
+      "text": "keeps you from",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6244502858289624,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 25295.60975609756,
+      "endMs": 25951.219512195123,
+      "text": "blinking at",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 25951.219512195123,
+      "endMs": 26497.560975609755,
+      "text": "the wrong",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.694636158938243,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 26497.560975609755,
+      "endMs": 26880,
+      "text": "moment.",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 26880,
+      "endMs": 27302.75229357798,
+      "text": "Look up",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 27302.75229357798,
+      "endMs": 27989.724770642202,
+      "text": "slightly and",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5957566736200145,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 27989.724770642202,
+      "endMs": 28782.38532110092,
+      "text": "place the lens",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6493686277130718,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 28782.38532110092,
+      "endMs": 29522.201834862386,
+      "text": "gently on the",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 29522.201834862386,
+      "endMs": 30262.018348623853,
+      "text": "white part of",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 30262.018348623853,
+      "endMs": 31054.67889908257,
+      "text": "your eye. Then",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.617760863275669,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 31054.67889908257,
+      "endMs": 31741.651376146787,
+      "text": "look forward",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6964186936932457,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 31741.651376146787,
+      "endMs": 32270.091743119265,
+      "text": "and blink",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5973510372541269,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 32270.091743119265,
+      "endMs": 32640,
+      "text": "slowly.",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5782923148480661,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 32641,
+      "endMs": 33339.71559633027,
+      "text": "It might feel",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5237296032892061,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 33339.71559633027,
+      "endMs": 33788.88990825688,
+      "text": "a little",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 33788.88990825688,
+      "endMs": 34337.880733944956,
+      "text": "strange at",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5636620872109076,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 34337.880733944956,
+      "endMs": 34886.87155963303,
+      "text": "first, but",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5249299054931804,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 34886.87155963303,
+      "endMs": 35535.678899082566,
+      "text": "within a few",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 35535.678899082566,
+      "endMs": 36184.48623853211,
+      "text": "minutes your",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6873538407989561,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 36184.48623853211,
+      "endMs": 36783.38532110092,
+      "text": "eye adjusts",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5400921569088193,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 36783.38532110092,
+      "endMs": 37332.37614678899,
+      "text": "and you'll",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6240845395799937,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 37332.37614678899,
+      "endMs": 37931.275229357794,
+      "text": "barely feel",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6110785023745576,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 37931.275229357794,
+      "endMs": 38081,
+      "text": "it.",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 38081,
+      "endMs": 38909.16901408451,
+      "text": "Never sleep in",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5445818067664978,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 38909.16901408451,
+      "endMs": 39571.704225352114,
+      "text": "your lenses",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 39571.704225352114,
+      "endMs": 40234.23943661972,
+      "text": "unless your",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.669939923265324,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 40234.23943661972,
+      "endMs": 41062.40845070423,
+      "text": "doctor says so",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5322840910459764,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 41062.40845070423,
+      "endMs": 41780.15492957747,
+      "text": "— and always",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5544664904142259,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 41780.15492957747,
+      "endMs": 42553.112676056335,
+      "text": "store them in",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5877751235376714,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 42553.112676056335,
+      "endMs": 42884.380281690144,
+      "text": "fresh",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6174713673448613,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 42884.380281690144,
+      "endMs": 43712.54929577465,
+      "text": "solution. With",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6451900102296254,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 43712.54929577465,
+      "endMs": 44430.295774647886,
+      "text": "practice, it",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5505231573926839,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 44430.295774647886,
+      "endMs": 44871.98591549296,
+      "text": "becomes",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5370645731387308,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 44871.98591549296,
+      "endMs": 45479.30985915493,
+      "text": "completely",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5992841129475724,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 45479.30985915493,
+      "endMs": 45921,
+      "text": "natural.",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6339350423672567,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    }
+  ],
+  "audio": [
+    {
+      "startMs": 0,
+      "endMs": 6560,
+      "audioUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_33JgG2z9k7OVgpfZMl4nkKTNsUw/hf_20260620_065635_7fc41944-d5c2-4f63-807a-f768eab08bf5.mp3"
+    },
+    {
+      "startMs": 6560,
+      "endMs": 12400,
+      "audioUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_33JgG2z9k7OVgpfZMl4nkKTNsUw/hf_20260620_065639_5d70bd3d-6fe9-482f-abb7-616ce9b34a96.mp3"
+    },
+    {
+      "startMs": 12400,
+      "endMs": 20160,
+      "audioUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_33JgG2z9k7OVgpfZMl4nkKTNsUw/hf_20260620_065642_268b7e18-8e18-4f44-a85d-db5bcf6b4372.mp3"
+    },
+    {
+      "startMs": 20160,
+      "endMs": 26880,
+      "audioUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_33JgG2z9k7OVgpfZMl4nkKTNsUw/hf_20260620_065645_79b3e97b-8227-45c3-ad1e-bab6d96cf0d2.mp3"
+    },
+    {
+      "startMs": 26880,
+      "endMs": 32641,
+      "audioUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_33JgG2z9k7OVgpfZMl4nkKTNsUw/hf_20260620_065648_db46358d-051d-431d-aebf-c5c3e71e6886.mp3"
+    },
+    {
+      "startMs": 32641,
+      "endMs": 38081,
+      "audioUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_33JgG2z9k7OVgpfZMl4nkKTNsUw/hf_20260620_065651_fbf14a27-cb44-4067-a02b-14cd4e4ecace.mp3"
+    },
+    {
+      "startMs": 38081,
+      "endMs": 45921,
+      "audioUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_33JgG2z9k7OVgpfZMl4nkKTNsUw/hf_20260620_065654_e28c972c-0086-4fa0-a5b3-1f750a2de8cb.mp3"
+    }
+  ],
+  "shortTitle": "Contact Lenses"
+}

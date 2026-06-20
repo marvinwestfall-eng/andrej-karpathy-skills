@@ -9,8 +9,12 @@ import { StoryMetadataWithDetails } from "../src/lib/types";
 import * as fs from "fs";
 import * as path from "path";
 import { createTimeLineFromStoryWithDetails } from "./timeline";
+import yargs from "yargs";
+import { hideBin } from "yargs/helpers";
 
 dotenv.config({ quiet: true });
+
+const argv = yargs(hideBin(process.argv)).option("slug", { type: "string" }).parseSync();
 
 const getContentDir = (slug: string) =>
   path.join(process.cwd(), "public", "content", slug);
@@ -42,7 +46,14 @@ async function generate() {
 
   let slug: string;
 
-  if (slugs.length === 1) {
+  if (argv.slug) {
+    if (!slugs.includes(argv.slug)) {
+      console.log(chalk.red(`Slug "${argv.slug}" not found. Available: ${slugs.join(", ")}`));
+      process.exit(1);
+    }
+    slug = argv.slug;
+    console.log(chalk.blue(`Using: ${slug}`));
+  } else if (slugs.length === 1) {
     slug = slugs[0];
     console.log(chalk.blue(`Using: ${slug}`));
   } else {

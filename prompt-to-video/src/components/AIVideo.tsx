@@ -105,7 +105,7 @@ export const AIVideo: React.FC<z.infer<typeof aiVideoSchema>> = ({
             durationInFrames={duration}
             premountFor={3 * FPS}
           >
-            <Audio src={staticFile(getAudioPath(id, element.audioUrl))} />
+            <Audio src={element.audioUrl.startsWith("http") ? element.audioUrl : staticFile(getAudioPath(id, element.audioUrl))} />
           </Sequence>
         );
       })}

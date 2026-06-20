@@ -41,7 +41,7 @@ export const createTimeLineFromStoryWithDetails = (
     timeline.audio.push({
       startMs: durationMs,
       endMs: durationMs + lenMs,
-      audioUrl: content.uid,
+      audioUrl: content.audioUrl ?? content.uid,
     });
 
     // hadnle text word by word

@@ -101,5 +101,6 @@ export interface ContentItemWithDetails {
   text: string;
   imageDescription: string;
   uid: string;
+  audioUrl?: string;
   audioTimestamps: AudioTimestamps;
 }
